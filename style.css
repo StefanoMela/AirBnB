@@ -1,0 +1,35 @@
+/* ! Reset */
+body, html{ font-family: 'Intro', Arial, Helvetica, sans-serif; font-size: 16px; box-sizing: border-box;margin: 0;padding: 0;}*,*:before,*:after{ box-sizing: border-box; }h1,h2,h3,h4,h5,h6, p, ol, ul{margin: 0 0 1rem 0;padding: 0;}ol,ul{list-style-type: none;}img{height: auto;}h1{font-size: 4rem;} h2{font-size: 3rem;} h3{font-size: 2rem;} h4{font-size: 1rem;} h5{font-size: 0.8rem;} h6{font-size: 0.6rem;}a{text-decoration:none}
+
+.card{
+    width: 100vw;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    border: solid 1px black;
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.name{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(2, 2, 2, 0.7);
+}
+
+#baradili{
+    background-image: url(baradili.jpeg);
+}
+
+#esterzili{
+    background-image: url(esterzili.jpeg);
+}
+
+#samugheo{
+    background-image: url(samugheo.jpeg);
+}
